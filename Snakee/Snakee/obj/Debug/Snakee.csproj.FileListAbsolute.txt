@@ -1,0 +1,8 @@
+C:\Users\ASUS\source\repos\Snakee\Snakee\Snakee\obj\Debug\Snakee.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\Snakee\Snakee\Snakee\obj\Debug\Snakee.csproj.SuggestedBindingRedirects.cache
+C:\Users\ASUS\source\repos\Snakee\Snakee\Snakee\obj\Debug\Snakee.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\Snakee\Snakee\Snakee\bin\Debug\Snakee.exe.config
+C:\Users\ASUS\source\repos\Snakee\Snakee\Snakee\bin\Debug\Snakee.exe
+C:\Users\ASUS\source\repos\Snakee\Snakee\Snakee\bin\Debug\Snakee.pdb
+C:\Users\ASUS\source\repos\Snakee\Snakee\Snakee\obj\Debug\Snakee.exe
+C:\Users\ASUS\source\repos\Snakee\Snakee\Snakee\obj\Debug\Snakee.pdb
