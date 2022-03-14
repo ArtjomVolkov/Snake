@@ -10,14 +10,19 @@ namespace Snakee
     {
         static void Main(string[] args)
         {
-            Point p1 = new Point(1, 3, '*');
+            Console.SetBufferSize(180, 60);
+
+            Horizon upLine = new Horizon(0,78,0,'+');
+            Horizon downLine = new Horizon(0, 78, 24, '+');
+            Vertical leftLine = new Vertical(0,24,0,'+');
+            Vertical rightLine = new Vertical(0,24,78,'+');
+            upLine.Drow();
+            downLine.Drow();
+            leftLine.Drow();
+            rightLine.Drow();
+
+            Point p1 = new Point(4, 5, '*');
             p1.Draw();
-
-            Point p2 = new Point(4, 5, '#');
-            p2.Draw();
-
-            Horizon line = new Horizon();
-            line.Drow();
 
             Console.ReadLine();
         }
