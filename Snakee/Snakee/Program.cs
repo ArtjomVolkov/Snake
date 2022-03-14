@@ -10,7 +10,7 @@ namespace Snakee
     {
         static void Main(string[] args)
         {
-            Console.SetBufferSize(180, 60);
+            Console.SetBufferSize(180, 80);
 
             Horizon upLine = new Horizon(0,78,0,'+');
             Horizon downLine = new Horizon(0, 78, 24, '+');
@@ -21,10 +21,10 @@ namespace Snakee
             leftLine.Drow();
             rightLine.Drow();
 
-            Point p1 = new Point(4, 5, '*');
-            p1.Draw();
+            Point p = new Point(4, 5, '*');
 
-            Console.ReadLine();
+            Snake snake = new Snake(p, 4, Direction.RIGHT);
+            snake.Drow();
         }
     }
 }
