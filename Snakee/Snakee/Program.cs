@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Snakee
@@ -16,17 +17,26 @@ namespace Snakee
             Horizon downLine = new Horizon(0, 78, 24, '+');
             Vertical leftLine = new Vertical(0,24,0,'+');
             Vertical rightLine = new Vertical(0,24,78,'+');
-            upLine.Drow();
-            downLine.Drow();
-            leftLine.Drow();
-            rightLine.Drow();
+            upLine.Draw();
+            downLine.Draw();
+            leftLine.Draw();
+            rightLine.Draw();
 
             Point p = new Point(4, 5, '*');
 
-            Snake snake = new Snake(p, 10, Direction.RIGHT);
-            snake.Drow();
-            snake.Move();
-            Thread.Sleep(300);
+            Snake snake = new Snake(p, 4, Direction.RIGHT);
+            snake.Draw();
+
+            while (true)
+            {
+                if (Console.KeyAvailable)
+                {
+                    ConsoleKeyInfo key = Console.ReadKey();
+                    snake.HandleKey(key.Key);
+                }
+                Thread.Sleep(100);
+                snake.Move();
+            }
         }
     }
 }
