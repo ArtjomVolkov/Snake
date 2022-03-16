@@ -6,3 +6,12 @@ C:\Users\ASUS\source\repos\Snakee\Snakee\Snakee\bin\Debug\Snakee.exe
 C:\Users\ASUS\source\repos\Snakee\Snakee\Snakee\bin\Debug\Snakee.pdb
 C:\Users\ASUS\source\repos\Snakee\Snakee\Snakee\obj\Debug\Snakee.exe
 C:\Users\ASUS\source\repos\Snakee\Snakee\Snakee\obj\Debug\Snakee.pdb
+C:\Users\opilane\source\repos\Volkov TARpv21\snake\Snakee\Snakee\bin\Debug\Snakee.exe.config
+C:\Users\opilane\source\repos\Volkov TARpv21\snake\Snakee\Snakee\bin\Debug\Snakee.exe
+C:\Users\opilane\source\repos\Volkov TARpv21\snake\Snakee\Snakee\bin\Debug\Snakee.pdb
+C:\Users\opilane\source\repos\Volkov TARpv21\snake\Snakee\Snakee\obj\Debug\Snakee.csproj.AssemblyReference.cache
+C:\Users\opilane\source\repos\Volkov TARpv21\snake\Snakee\Snakee\obj\Debug\Snakee.csproj.CoreCompileInputs.cache
+C:\Users\opilane\source\repos\Volkov TARpv21\snake\Snakee\Snakee\obj\Debug\Snakee.exe
+C:\Users\opilane\source\repos\Volkov TARpv21\snake\Snakee\Snakee\obj\Debug\Snakee.pdb
+C:\Users\opilane\source\repos\Volkov TARpv21\snake\Snakee\Snakee\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\opilane\source\repos\Volkov TARpv21\snake\Snakee\Snakee\obj\Debug\Snakee.csproj.CopyComplete
