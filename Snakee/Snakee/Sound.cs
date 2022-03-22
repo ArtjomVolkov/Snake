@@ -12,20 +12,22 @@ namespace Snakee
         WindowsMediaPlayer player = new WindowsMediaPlayer();
         private string pathToMedia;
 
-        public Sound()
-        {
-        }
-
         public Sound(string pathToResources)
         {
             pathToMedia = pathToResources;
         }
         public void Play()
         {
-            player.URL = pathToMedia + "stardust.mp3";
+            player.URL = pathToMedia + "Stardust.mp3";
             player.settings.volume = 100;
             player.controls.play();
             player.settings.setMode("loop", true);
+        }
+        public void PlayEat()
+        {
+            player.URL = pathToMedia + "Eat.mp3";
+            player.settings.volume = 50;
+            player.controls.play();
         }
         public void Play(string songName)
         {
@@ -34,15 +36,10 @@ namespace Snakee
         }
         public void Deads()
         {
-            player.URL = pathToMedia + "dead.mp3";
+            player.URL = pathToMedia + "Dead.mp3";
             player.settings.volume = 100;
             player.controls.play();
         }
-        public void PlayEat()
-        {
-            player.URL = pathToMedia + "eating.mp3";
-            player.settings.volume = 100;
-            player.controls.play();
-        }
+        
     }
 }

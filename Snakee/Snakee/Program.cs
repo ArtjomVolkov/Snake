@@ -12,8 +12,12 @@ namespace Snakee
 	{
 		static void Main(string[] args)
 		{
-			Sound sounds = new Sound();
-			sounds.Play();
+			Media settings = new Media();
+			Sound sound = new Sound(settings.GetResourceFolder());
+			sound.Play();
+			Sound soundeat = new Sound(settings.GetResourceFolder());
+			Sound deads = new Sound(settings.GetResourceFolder());
+
 			Console.SetWindowSize(80, 25);
 
 			Walls walls = new Walls(80, 25);
@@ -33,12 +37,12 @@ namespace Snakee
 			{
 				if (walls.IsHit(snake) || snake.IsHitTail())
 				{
-					sounds.Deads();
+					deads.Deads();
 					break;
 				}
 				if (snake.Eat(food))
 				{
-					sounds.PlayEat();
+					soundeat.PlayEat();
 					food = foodCreator.CreateFood();
 					food.Draw();
 				}
