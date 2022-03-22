@@ -12,23 +12,22 @@ namespace Snakee
 	{
 		static void Main(string[] args)
 		{
+			//добавление музыки
 			Media settings = new Media();
 			Sound sound = new Sound(settings.GetResourceFolder());
-			sound.Play();
+			sound.Play(); //проигрывается начальная музыка
 			Sound soundeat = new Sound(settings.GetResourceFolder());
 			Sound deads = new Sound(settings.GetResourceFolder());
-
+			//разрешение окна
 			Console.SetWindowSize(80, 25);
-
+			//появление границы
 			Walls walls = new Walls(80, 25);
-
 			walls.Draw();
-
-			//точки			
+			//точки	появление змейки
 			Point p = new Point(4, 5, '*');
 			Snake snake = new Snake(p, 4, Direction.RIGHT);
 			snake.Draw();
-
+			//точки появление еды
 			FoodCreator foodCreator = new FoodCreator(80, 25, '$');
 			Point food = foodCreator.CreateFood();
 			food.Draw();
@@ -37,12 +36,12 @@ namespace Snakee
 			{
 				if (walls.IsHit(snake) || snake.IsHitTail())
 				{
-					deads.Deads();
+					deads.Deads(); //звук смерти
 					break;
 				}
 				if (snake.Eat(food))
 				{
-					soundeat.PlayEat();
+					soundeat.PlayEat(); //звук поедание еды
 					food = foodCreator.CreateFood();
 					food.Draw();
 				}
@@ -51,7 +50,7 @@ namespace Snakee
 					snake.Move();
 				}
 
-				System.Threading.Thread.Sleep(100);
+				Thread.Sleep(100); //задержка 100 секунд
 				if (Console.KeyAvailable)
 				{
 					ConsoleKeyInfo key = Console.ReadKey();
@@ -59,7 +58,7 @@ namespace Snakee
 				}
 			}
 			GameOver gameOver = new GameOver();
-			gameOver.WriteGameOver();
+			gameOver.WriteGameOver(); //конец игры
 			Console.ReadLine();
 		}
 	}
