@@ -21,7 +21,7 @@ namespace Snakee
 			}
 		}
 
-		public void Move()
+		public void Move() //метод движение змейки
 		{
 			Point tail = pList.First();
 			pList.Remove(tail);
@@ -40,7 +40,7 @@ namespace Snakee
 			return nextPoint;
 		}
 
-		public bool IsHitTail()
+		public bool IsHitTail() //метод поедание 
 		{
 			var head = pList.Last();
 			for (int i = 0; i < pList.Count - 2; i++)
@@ -51,7 +51,7 @@ namespace Snakee
 			return false;
 		}
 
-		public void HandleKey(ConsoleKey key)
+		public void HandleKey(ConsoleKey key) //метод управление змейки
 		{
 			if (key == ConsoleKey.LeftArrow)
 				direction = Direction.LEFT;
