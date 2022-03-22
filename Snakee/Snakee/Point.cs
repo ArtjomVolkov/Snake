@@ -35,23 +35,23 @@ namespace Snakee
 			{
 				x = x + offset;
 			}
-			else if (direction == Direction.LEFT)
+			else if (direction == Direction.LEFT) //конструкция else if для определения направления, если направление влево, то переменную x отнимаем на offset
 			{
 				x = x - offset;
 			}
-			else if (direction == Direction.UP)
+			else if (direction == Direction.UP) //конструкция else if для определения направления, если направление влево, то переменную y отнимаем на offset
 			{
 				y = y - offset;
 			}
-			else if (direction == Direction.DOWN)
+			else if (direction == Direction.DOWN) //конструкция else if для определения направления, если направление влево, то переменную y прибавляем на offset
 			{
 				y = y + offset;
 			}
 		}
 
-		public bool IsHit(Point p)
+		public bool IsHit(Point p) //метод поедание еды
 		{
-			Console.ForegroundColor = GetRandomConsoleColor();
+			Console.ForegroundColor = GetRandomConsoleColor(); //рандомный цвет
 			return p.x == this.x && p.y == this.y;
 		}
 
