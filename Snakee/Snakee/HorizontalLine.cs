@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Snakee
 {
-	class HorizontalLine : Figure
+	class HorizontalLine : Figure // наследование
 	{
 		public HorizontalLine(int xLeft, int xRight, int y, char sym)
 		{
