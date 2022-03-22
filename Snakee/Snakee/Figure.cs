@@ -8,21 +8,21 @@ namespace Snakee
 {
 	class Figure
 	{
-		protected List<Point> pList; //поле типа List, в котором будут содержаться значения типа Point. Protected -  по сути является закрытым полем, но его могут использовать классы наследники
-		public void Draw() //метод отрисовки точек
+		protected List<Point> pList; //поле типа List, в котором будут содержаться значения типа Point
+		public void Draw() //метод рисует точки
 		{
-			foreach (Point p in pList) //отрисовывает каждое значение p из списка pList
+			foreach (Point p in pList) 
 			{
 
 				p.Draw();
 			}
 		}
 
-		internal bool IsHit(Figure figure) //метод для проверки столкновения, который берет объект типа класса Figure. Возвращает bool значение
+		internal bool IsHit(Figure figure) //метод для проверки столкновения, который берет объект типа класса Figure
 		{
-			foreach (var p in pList) //берет каждое значение из списка и приравнивает к p 
+			foreach (var p in pList) 
 			{
-				if (figure.IsHit(p)) //если фигура столкнулась с точко, то возвращает true, в ином случае false
+				if (figure.IsHit(p)) //если фигура столкнулась с точкой, то возвращает true, в ином случае false
 
 					return true;
 			}
