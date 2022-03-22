@@ -8,7 +8,8 @@ namespace Snakee
 {
 	public class RndColor
 	{
-		public static Random rnd = new Random();
+		public static Random rnd = new Random(); //переменная класса Random
+		//рандомный цвет
 		public static ConsoleColor GetRandomConsoleColor()
 		{
 			var consoleColors = Enum.GetValues(typeof(ConsoleColor));
