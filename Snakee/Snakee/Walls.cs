@@ -16,15 +16,15 @@ namespace Snakee
 			wallList = new List<Figure>();
 
 			//рамки
-			HorizontalLine upLine = new HorizontalLine(0, mapWidth - 2, 0, '+');
-			HorizontalLine downLine = new HorizontalLine(0, mapWidth - 2, mapHeight - 1, '+');
-			VerticalLine leftLine = new VerticalLine(0, mapHeight - 1, 0, '+');
-			VerticalLine rightLine = new VerticalLine(0, mapHeight - 1, mapWidth - 2, '+');
+			HorizontalLine upLine = new HorizontalLine(0, mapWidth - 2, 0, '+'); //Граница поля
+			HorizontalLine downLine = new HorizontalLine(0, mapWidth - 2, mapHeight - 1, '+'); //Граница поля
+			VerticalLine leftLine = new VerticalLine(0, mapHeight - 1, 0, '+'); //Граница поля
+			VerticalLine rightLine = new VerticalLine(0, mapHeight - 1, mapWidth - 2, '+'); //Граница поля
 
-			wallList.Add(upLine);
-			wallList.Add(downLine);
-			wallList.Add(leftLine);
-			wallList.Add(rightLine);
+			wallList.Add(upLine); //добавление в wallList
+			wallList.Add(downLine); //добавление в wallList
+			wallList.Add(leftLine); //добавление в wallList
+			wallList.Add(rightLine); //добавление в wallList
 		}
 
 		internal bool IsHit(Figure figure)
