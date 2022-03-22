@@ -50,7 +50,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Menu.cs" />
+    <Compile Include="Menu2.cs" />
     <Compile Include="RndColor.cs" />
+    <Compile Include="RockPaper.cs" />
+    <Compile Include="Score.cs" />
     <Compile Include="Sound.cs" />
     <Compile Include="Direction.cs" />
     <Compile Include="Figure.cs" />

@@ -12,6 +12,7 @@ namespace Snakee
 	{
 		static void Main(string[] args)
 		{
+			Score score = new Score();
 			Menu2 menu = new Menu2();
 			menu.Start();
 			//добавление музыки
@@ -26,7 +27,7 @@ namespace Snakee
 			Walls walls = new Walls(80, 25);
 			walls.Draw();
 			//точки	появление змейки
-			Point p = new Point(4, 5, '*');
+			Point p = new Point(4, 5, '☻');
 			Snake snake = new Snake(p, 4, Direction.RIGHT);
 			snake.Draw();
 			//точки появление еды
@@ -46,13 +47,14 @@ namespace Snakee
 					soundeat.PlayEat(); //звук поедание еды
 					food = foodCreator.CreateFood();
 					food.Draw();
+					score.Vivod();
 				}
 				else
 				{
 					snake.Move();
 				}
 
-				Thread.Sleep(100); //задержка 100 секунд
+				Thread.Sleep(10); //задержка 100 секунд
 				if (Console.KeyAvailable)
 				{
 					ConsoleKeyInfo key = Console.ReadKey();
@@ -61,6 +63,7 @@ namespace Snakee
 			}
 			GameOver gameOver = new GameOver();
 			gameOver.WriteGameOver(); //конец игры
+			score.Vivod2();
 			Console.ReadLine();
 		}
 	}

@@ -25,3 +25,5 @@ C:\Users\ASUS\Source\Repos\Snake\Snakee\Snakee\obj\Debug\Snakee.csproj.CoreCompi
 C:\Users\ASUS\Source\Repos\Snake\Snakee\Snakee\obj\Debug\Snakee.csproj.CopyComplete
 C:\Users\ASUS\Source\Repos\Snake\Snakee\Snakee\obj\Debug\Snakee.exe
 C:\Users\ASUS\Source\Repos\Snake\Snakee\Snakee\obj\Debug\Snakee.pdb
+C:\Users\ASUS\source\repos\Snakee\Snakee\Snakee\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\ASUS\source\repos\Snakee\Snakee\Snakee\obj\Debug\Snakee.csproj.CopyComplete
