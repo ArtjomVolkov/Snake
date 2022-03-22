@@ -15,3 +15,13 @@ C:\Users\opilane\source\repos\Volkov TARpv21\snake\Snakee\Snakee\obj\Debug\Snake
 C:\Users\opilane\source\repos\Volkov TARpv21\snake\Snakee\Snakee\obj\Debug\Snakee.pdb
 C:\Users\opilane\source\repos\Volkov TARpv21\snake\Snakee\Snakee\bin\Debug\AxInterop.WMPLib.dll
 C:\Users\opilane\source\repos\Volkov TARpv21\snake\Snakee\Snakee\obj\Debug\Snakee.csproj.CopyComplete
+C:\Users\ASUS\Source\Repos\Snake\Snakee\Snakee\bin\Debug\Snakee.exe.config
+C:\Users\ASUS\Source\Repos\Snake\Snakee\Snakee\bin\Debug\Snakee.exe
+C:\Users\ASUS\Source\Repos\Snake\Snakee\Snakee\bin\Debug\Snakee.pdb
+C:\Users\ASUS\Source\Repos\Snake\Snakee\Snakee\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\ASUS\Source\Repos\Snake\Snakee\Snakee\obj\Debug\Snakee.csproj.AssemblyReference.cache
+C:\Users\ASUS\Source\Repos\Snake\Snakee\Snakee\obj\Debug\Snakee.csproj.SuggestedBindingRedirects.cache
+C:\Users\ASUS\Source\Repos\Snake\Snakee\Snakee\obj\Debug\Snakee.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Source\Repos\Snake\Snakee\Snakee\obj\Debug\Snakee.csproj.CopyComplete
+C:\Users\ASUS\Source\Repos\Snake\Snakee\Snakee\obj\Debug\Snakee.exe
+C:\Users\ASUS\Source\Repos\Snake\Snakee\Snakee\obj\Debug\Snakee.pdb

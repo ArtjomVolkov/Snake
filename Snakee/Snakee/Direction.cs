@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Snakee
 {
-    enum Direction
-    {
-        LEFT,
-        RIGHT,
-        UP,
-        DOWN
-    }
+	enum Direction //класс enum или же класс перечисление. В нем перечисляются направления
+	{
+		LEFT, //направления
+		RIGHT,
+		UP,
+		DOWN
+	}
 }
