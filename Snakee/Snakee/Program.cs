@@ -12,6 +12,8 @@ namespace Snakee
 	{
 		static void Main(string[] args)
 		{
+			Menu2 menu = new Menu2();
+			menu.Start();
 			//добавление музыки
 			Media settings = new Media();
 			Sound sound = new Sound(settings.GetResourceFolder());
